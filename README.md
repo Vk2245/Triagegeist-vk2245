@@ -285,7 +285,7 @@ pip install lightgbm>=4.0 catboost>=1.2 xgboost>=2.0 scikit-learn>=1.4 shap pand
 
 ### Run on Kaggle
 
-1. Fork the notebook: `triage-vk224_EndToEnd.ipynb`
+1. Fork the notebook: `triage_Vk2245.ipynb`
 2. Add the **Triagegeist** competition dataset as input
 3. Enable **GPU accelerator** (T4 recommended)
 4. Run all cells — end-to-end in ~15 minutes
@@ -293,7 +293,7 @@ pip install lightgbm>=4.0 catboost>=1.2 xgboost>=2.0 scikit-learn>=1.4 shap pand
 ### Local Setup
 
 ```bash
-git clone https://github.com/[your-username]/triagegeist-vk224
+git clone https://github.com/Vk2245/Triagegeist-vk2245
 cd triagegeist-vk224
 
 # Install dependencies
@@ -303,7 +303,7 @@ pip install -r requirements.txt
 DATA = '/path/to/triagegeist/data/'
 
 # Run notebook
-jupyter notebook triage-vk224_EndToEnd.ipynb
+jupyter notebook triage_Vk2245.ipynb
 ```
 
 ### requirements.txt
@@ -329,10 +329,10 @@ torch>=2.0.0
 ```
 triagegeist-vk224/
 │
-├── 📓 triage-vk224_EndToEnd.ipynb    # Main Kaggle notebook (run end-to-end)
+├── 📓 triage_Vk2245.ipynb    # Main Kaggle notebook (run end-to-end)
 ├── 📄 README.md                       # This file
 ├── 📋 requirements.txt                # Python dependencies
-├── 📝 writeup.md                      # Competition writeup
+├── 📝 writeup.pdf                      # Competition writeup
 │
 ├── outputs/                           # Generated during notebook run
 │   ├── submission.csv                 # Final predictions
